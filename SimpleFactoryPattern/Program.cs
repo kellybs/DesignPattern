@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace SimpleFactoryPattern
 {
+    /// <summary>
+    /// 简单工厂模式
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -15,7 +18,7 @@ namespace SimpleFactoryPattern
            * 
            * 说明：定义一个工厂类，他可以根据参数的不同返回不同类的实例，被创建的实例通常都具有共同的父类
            * 
-           * 简单工厂模式式包含3个角色：
+           * 简单工厂模式包含3个角色：
            * 1 Factory(工厂角色)：工厂角色即工厂类，它是简单工厂模式的核心，负责实现创建所有产品的实例的内部逻辑；工厂类可以直接被外部调用，创建所需产品对象
            *              在工厂类中提供静态的工厂方法FactoryMethod(),它返回类型为抽象产品类型的Product.
            * 2 Product(抽象产品角色)：它是工厂类所创建的所有对象的父类，封装了各种产品对象的公共方法，它的引入提高系统灵活性
