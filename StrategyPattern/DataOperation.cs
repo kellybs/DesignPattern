@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StrategyPattern
+﻿namespace StrategyPattern
 {
     /// <summary>
     /// 充当环境类角色
